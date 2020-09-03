@@ -11,9 +11,11 @@
 		0F798DB92501543D0079EAC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F798DB82501543D0079EAC0 /* ViewController.swift */; };
 		0F798DBB2501543F0079EAC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F798DBA2501543F0079EAC0 /* Assets.xcassets */; };
 		0F798DBE2501543F0079EAC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F798DBC2501543F0079EAC0 /* Main.storyboard */; };
+		91C2EFF02849826A99DE657D /* Pods_JsonApiToJson_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E188BF75BB4C47B7CB5B6CA /* Pods_JsonApiToJson_2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D06C5AD4338AAE3AB591AFE /* Pods-JsonApiToJson_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonApiToJson_2.release.xcconfig"; path = "Target Support Files/Pods-JsonApiToJson_2/Pods-JsonApiToJson_2.release.xcconfig"; sourceTree = "<group>"; };
 		0F798DB32501543D0079EAC0 /* JsonApiToJson_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonApiToJson_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F798DB62501543D0079EAC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F798DB82501543D0079EAC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +23,8 @@
 		0F798DBD2501543F0079EAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F798DBF2501543F0079EAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F798DC02501543F0079EAC0 /* JsonApiToJson_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JsonApiToJson_2.entitlements; sourceTree = "<group>"; };
+		8E188BF75BB4C47B7CB5B6CA /* Pods_JsonApiToJson_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonApiToJson_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB6FF8D1F8C30E6725127CD /* Pods-JsonApiToJson_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonApiToJson_2.debug.xcconfig"; path = "Target Support Files/Pods-JsonApiToJson_2/Pods-JsonApiToJson_2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C2EFF02849826A99DE657D /* Pods_JsonApiToJson_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +44,8 @@
 			children = (
 				0F798DB52501543D0079EAC0 /* JsonApiToJson_2 */,
 				0F798DB42501543D0079EAC0 /* Products */,
+				901B0C2F777B4A0FF6AD69B1 /* Pods */,
+				C2B828CC3012602504EF6785 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +70,24 @@
 			path = JsonApiToJson_2;
 			sourceTree = "<group>";
 		};
+		901B0C2F777B4A0FF6AD69B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABB6FF8D1F8C30E6725127CD /* Pods-JsonApiToJson_2.debug.xcconfig */,
+				0D06C5AD4338AAE3AB591AFE /* Pods-JsonApiToJson_2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2B828CC3012602504EF6785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E188BF75BB4C47B7CB5B6CA /* Pods_JsonApiToJson_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -70,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F798DC32501543F0079EAC0 /* Build configuration list for PBXNativeTarget "JsonApiToJson_2" */;
 			buildPhases = (
+				641F418476473DE72BFE8003 /* [CP] Check Pods Manifest.lock */,
 				0F798DAF2501543D0079EAC0 /* Sources */,
 				0F798DB02501543D0079EAC0 /* Frameworks */,
 				0F798DB12501543D0079EAC0 /* Resources */,
+				1B62E3E2C25CBB6F275EB78C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +154,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B62E3E2C25CBB6F275EB78C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsonApiToJson_2/Pods-JsonApiToJson_2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JsonApiToJson_2/Pods-JsonApiToJson_2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JsonApiToJson_2/Pods-JsonApiToJson_2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		641F418476473DE72BFE8003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JsonApiToJson_2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F798DAF2501543D0079EAC0 /* Sources */ = {
@@ -267,6 +336,7 @@
 		};
 		0F798DC42501543F0079EAC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABB6FF8D1F8C30E6725127CD /* Pods-JsonApiToJson_2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = JsonApiToJson_2/JsonApiToJson_2.entitlements;
@@ -287,6 +357,7 @@
 		};
 		0F798DC52501543F0079EAC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D06C5AD4338AAE3AB591AFE /* Pods-JsonApiToJson_2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = JsonApiToJson_2/JsonApiToJson_2.entitlements;
